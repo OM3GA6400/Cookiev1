@@ -15965,5 +15965,6 @@ window.onload=function()
 		else if (!lang) {loadLangAndLaunch('EN',true);}
 		else loadLangAndLaunch(lang);
 		
+		Game.LoadMod("http://icehawk78.github.io/FrozenCookies/frozen_cookies.js");
 	}
 };
