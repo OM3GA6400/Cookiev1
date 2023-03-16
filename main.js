@@ -15964,5 +15964,7 @@ window.onload=function()
 		if (App && !lang) showLangSelect(loadLangAndLaunch);
 		else if (!lang) {loadLangAndLaunch('EN',true);}
 		else loadLangAndLaunch(lang);
+		
+		Game.LoadMod("https://cookiemonsterteam.github.io/CookieMonster/dist/CookieMonsterDev.js");
 	}
 };
