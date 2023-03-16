@@ -15965,6 +15965,5 @@ window.onload=function()
 		else if (!lang) {loadLangAndLaunch('EN',true);}
 		else loadLangAndLaunch(lang);
 		
-		Game.LoadMod("https://cookiemonsterteam.github.io/CookieMonster/dist/CookieMonsterDev.js");
 	}
 };
