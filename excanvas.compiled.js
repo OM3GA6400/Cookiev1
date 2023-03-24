@@ -403,10 +403,10 @@ document.createElement("canvas").getContext || (function() {
 					break
 			}
 			if (e) {
-				if (h.x == null || e.x < h.x) h.x = e.x;
-				if (g.x == null || e.x > g.x) g.x = e.x;
-				if (h.y == null || e.y < h.y) h.y = e.y;
-				if (g.y == null || e.y > g.y) g.y = e.y
+				if (h.x === null || e.x < h.x) h.x = e.x;
+				if (g.x === null || e.x > g.x) g.x = e.x;
+				if (h.y === null || e.y < h.y) h.y = e.y;
+				if (g.y === null || e.y > g.y) g.y = e.y
 			}
 		}
 		a.push(' ">');
