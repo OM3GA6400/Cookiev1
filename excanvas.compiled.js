@@ -505,7 +505,7 @@ document.createElement("canvas").getContext || (function() {
 	}
 
 	function A(b, a, c) {
-		if (!!ha(a)) {
+		if (ha(a)) {
 			b.m_ = a;
 			if (c) b.lineScale_ = W(V(a[0][0] * a[1][1] - a[0][1] * a[1][0]))
 		}
