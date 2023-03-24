@@ -6820,7 +6820,7 @@ Game.Launch=function()
 				var mainLevels=[0,4,8,Game.dragonLevels.length-3,Game.dragonLevels.length-2,Game.dragonLevels.length-1];
 				if (Game.Has('A crumbly egg'))
 				{
-					for (var i=0;i<=mainLevels.length;i++)
+					for (var i=0;i<mainLevels.length;i++)
 					{
 						if (Game.dragonLevel>=mainLevels[i])
 						{
